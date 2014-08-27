@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<CaseType>
+  <name>Expertapplication</name>
+  <ActivityTypes>
+    <ActivityType>
+      <name>Open Case</name>
+      <max_instances>1</max_instances>
+    </ActivityType>
+    <ActivityType>
+      <name>Email</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Print PDF Letter</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Phone Call</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Interview</name>
+    </ActivityType>
+	<ActivityType>
+      <name>RCT Intake Report</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Create Candidate Expert Account</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Fill Out PUM CV</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Contact with colleague</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Change Case Type</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Change Case Status</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Change Case Start Date</name>
+    </ActivityType>
+      </ActivityTypes>
+  <ActivitySets>
+    <ActivitySet>
+      <name>standard_timeline</name>
+      <label>Standard Timeline</label>
+      <timeline>true</timeline>
+      <ActivityTypes>
+        <ActivityType>
+          <name>Open Case</name>
+          <status>Completed</status>
+        </ActivityType>
+      </ActivityTypes>
+    </ActivitySet>
+	</ActivitySets>
+  <CaseRoles>
+    <RelationshipType>
+        <name>Sector Coordinator</name>
+        <manager>1</manager>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Recruitment Team Member</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>CV Intake</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Sector Support Officer</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Head Personnel and Organisation</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Reception</name>
+    </RelationshipType>
+		</CaseRoles>
+</CaseType>

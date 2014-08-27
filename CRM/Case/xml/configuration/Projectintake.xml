@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<CaseType>
+  <name>Projectintake</name>
+  <ActivityTypes>
+    <ActivityType>
+      <name>Open Case</name>
+      <max_instances>1</max_instances>
+    </ActivityType>
+   <ActivityType>
+      <name>Email</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Contact with Customer</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Contact about Customer</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Intake Customer by CC</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Intake Customer by SC</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Intake Customer by Anamon</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Print PDF Letter</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Follow up</name>
+    </ActivityType>
+  <ActivityType>
+      <name>Change Case Type</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Change Case Status</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Change Case Start Date</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Link Cases</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Assessment Project Request by Rep</name>
+    </ActivityType>
+  </ActivityTypes>
+  <ActivitySets>
+    <ActivitySet>
+      <name>standard_timeline</name>
+      <label>Standard Timeline</label>
+      <timeline>true</timeline>
+      <ActivityTypes>
+        <ActivityType>
+          <name>Open Case</name>
+          <status>Completed</status>
+        </ActivityType>
+        </ActivityTypes>
+    </ActivitySet>
+  </ActivitySets>
+  <CaseRoles>
+    <RelationshipType>
+        <name>Sector Coordinator</name>
+           </RelationshipType>
+    <RelationshipType>
+        <name>Representative</name>
+    </RelationshipType>
+    <RelationshipType>
+        <name>Project Officer</name>
+    </RelationshipType>
+<RelationshipType>
+        <name>Country Coordinator for</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Anamon</name>
+    </RelationshipType>	
+	<RelationshipType>
+        <name>Project Officer</name>
+		<manager>1</manager>
+    </RelationshipType>
+ </CaseRoles>
+</CaseType>

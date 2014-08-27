@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<CaseType>
+  <name>Expert72</name>
+  <ActivityTypes>
+    <ActivityType>
+      <name>Open Case</name>
+      <max_instances>1</max_instances>
+    </ActivityType>
+    <ActivityType>
+      <name>Contact with Expert</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Contact about Expert</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Contact about Customer</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Contact with Customer</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Change Case Status</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Change Case Start Date</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Link Cases</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Email</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Print PDF Letter</name>
+    </ActivityType>
+  </ActivityTypes>
+  <ActivitySets>
+    <ActivitySet>
+      <name>standard_timeline</name>
+      <label>Standard Timeline</label>
+      <timeline>true</timeline>
+      <ActivityTypes>
+        <ActivityType>
+          <name>Open Case</name>
+          <status>Completed</status>
+        </ActivityType>
+      </ActivityTypes>
+    </ActivitySet>
+	</ActivitySets>
+  <CaseRoles>
+    <RelationshipType>
+        <name>Sector Coordinator</name>
+		<manager>1</manager>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Sector Support Officer</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Head Personnel and Organisation</name>
+    </RelationshipType>
+	</CaseRoles>
+</CaseType>

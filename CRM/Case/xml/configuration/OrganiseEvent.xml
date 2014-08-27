@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<CaseType>
+  <name>Organise Event</name>
+  <ActivityTypes>
+    <ActivityType>
+      <name>Open Case</name>
+      <max_instances>1</max_instances>
+    </ActivityType>
+    <ActivityType>
+      <name>Invite participants</name>
+    </ActivityType>
+<ActivityType>
+      <name>Invite guests</name>
+    </ActivityType>
+<ActivityType>
+      <name>Event date</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Confirm participation</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Check agenda participants</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Book meeting room</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Invite to meeting</name>
+    </ActivityType>	  
+	<ActivityType>
+      <name>Report on meeting</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Examine options</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Plan activities</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Book location</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Book contributors</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Compose programme</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Follow up</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Change Case Type</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Change Case Status</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Change Case Start Date</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Link Cases</name>
+    </ActivityType>
+  </ActivityTypes>
+  <ActivitySets>
+    <ActivitySet>
+      <name>standard_timeline</name>
+      <label>Standard timeline</label>
+      <timeline>true</timeline>
+      <ActivityTypes>
+        <ActivityType>
+          <name>Open Case</name>
+          <status>Completed</status>
+        </ActivityType>
+	</ActivityTypes>
+	</ActivitySet>
+<ActivitySet>
+      <name>start_projectgroup</name>
+      <label>Start Projectgroup</label>
+      <timeline>true</timeline>
+      <ActivityTypes>
+        <ActivityType>
+          <name>Invite participants</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>3</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+        <ActivityType>
+          <name>Confirm participation</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>10</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+        <ActivityType>
+          <name>Check agenda participants</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>13</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+        <ActivityType>
+          <name>Book meeting room</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>14</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+        <ActivityType>
+          <name>Invite to meeting</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>14</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+        <ActivityType>
+          <name>Report on meeting</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>21</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+        <ActivityType>
+          <name>Follow up</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>99</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+      </ActivityTypes>
+    </ActivitySet>
+	<ActivitySet>
+      <name>plan_of_approach</name>
+      <label>Plan of Approach</label>
+      <timeline>true</timeline>
+      <ActivityTypes>
+        <ActivityType>
+          <name>Open Case</name>
+          <status>Completed</status>
+        </ActivityType>
+        <ActivityType>
+          <name>Examine options</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>14</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+        <ActivityType>
+          <name>Follow up</name>
+          <reference_activity>Examine options</reference_activity>
+          <reference_offset>3</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+        <ActivityType>
+          <name>Plan activities</name>
+          <reference_activity>Follow up</reference_activity>
+          <reference_offset>7</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+        <ActivityType>
+          <name>Book location</name>
+          <reference_activity>Plan activities</reference_activity>
+          <reference_offset>14</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Book contributors</name>
+          <reference_activity>Plan activities</reference_activity>
+          <reference_offset>14</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+        <ActivityType>
+          <name>Compose programme</name>
+          <reference_activity>Plan activities</reference_activity>
+          <reference_offset>14</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+        <ActivityType>
+          <name>Follow up</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>100</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+      </ActivityTypes>
+    </ActivitySet>
+  </ActivitySets>
+  <CaseRoles>
+    <RelationshipType>
+        <name>Event Manager</name>
+        <creator>1</creator>
+        <manager>1</manager>
+    </RelationshipType>
+    <RelationshipType>
+        <name>Event Project Member</name>
+		<manager>2</manager>
+    </RelationshipType>
+    <RelationshipType>
+        <name>Event External Party</name>
+    </RelationshipType>
+	 <RelationshipType>
+        <name>Event Contributor</name>
+    </RelationshipType>
+ </CaseRoles>
+</CaseType>

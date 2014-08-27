@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<CaseType>
+  <name>Advice</name>
+  <ActivityTypes>
+    <ActivityType>
+      <name>Open Case</name>
+      <max_instances>1</max_instances>
+    </ActivityType>
+    <ActivityType>
+      <name>Conditions</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Print PDF Letter</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Email</name>
+    </ActivityType>
+	<ActivityType>
+      <name>DSA</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Contact with Customer</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Contact with Expert</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Contact about Expert</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Contact about Customer</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Change Case Type</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Change Case Status</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Change Case Start Date</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Link Cases</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Match Expert</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Expert assess PP and fills out KQ</name>
+    </ActivityType>
+  	<ActivityType>
+      <name>Approve Expert by Customer</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Briefing Expert</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Pick Up Information Customer</name>
+    </ActivityType>
+	</ActivityTypes>
+  <ActivitySets>
+    <ActivitySet>
+      <name>standard_timeline</name>
+      <label>Standard Timeline</label>
+      <timeline>true</timeline>
+      <ActivityTypes>
+        <ActivityType>
+          <name>Open Case</name>
+          <status>Completed</status>
+        </ActivityType>
+		<ActivityType>
+          <name>Match Expert</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>7</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+      <ActivityType>
+          <name>Expert assess PP and fills out KQ</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>11</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Approve Expert by SC</name>
+          <reference_activity>Expert assess PP and fills out KQ</reference_activity>
+          <reference_offset>2</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+      <ActivityType>
+          <name>Approve Expert by CC</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>18</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Approve Expert by Customer</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>34</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Prof sends visa forms to expert</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>50</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Prof requests visa for expert</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>53</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Prof enters travel details and requests expert for OK</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>56</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Briefing Expert</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>56</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Pick Up Information Customer</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>59</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Prof assigns briefingdocuments for expert to cc</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>62</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>DSA</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>65</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Customer enters evaluation form</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>71</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+        <ActivityType>
+          <name>CC enters debriefing form</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>74</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>SC enters debriefing form</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>77</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>PR enters debriefing form</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>80</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		</ActivityTypes>
+		</ActivitySet>
+    	</ActivitySets>
+  <CaseRoles>
+    <RelationshipType>
+        <name>Sector Coordinator</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Representative</name>
+    </RelationshipType>
+    <RelationshipType>
+        <name>Expert</name>
+    </RelationshipType>
+    <RelationshipType>
+        <name>Country Coordinator</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Project Officer</name>
+    </RelationshipType>	
+	<RelationshipType>
+        <name>Travel Organiser</name>
+    </RelationshipType>
+ </CaseRoles>
+</CaseType>
