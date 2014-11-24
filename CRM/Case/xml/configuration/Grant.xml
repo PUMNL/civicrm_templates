@@ -8,6 +8,24 @@
       <max_instances>1</max_instances>
     </ActivityType>
     <ActivityType>
+      <name>Activity Information by CC</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Assessment Grant by GC</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Payment Grant</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Report</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Meeting</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Phone Call</name>
+    </ActivityType>
+	<ActivityType>
       <name>Print PDF Letter</name>
     </ActivityType>
 	<ActivityType>
@@ -72,6 +90,9 @@
     </RelationshipType>
 	<RelationshipType>
         <name>Grant Coordinator</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Authorised contact for</name>
     </RelationshipType>
 	<RelationshipType>
         <name>Project Officer</name>

@@ -8,7 +8,48 @@
       <max_instances>1</max_instances>
     </ActivityType>
     <ActivityType>
-      <name>Match Expert</name>
+      <name>Conditions</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Condition: Applicant Pays</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Accept Main Activity Proposal</name>
+    </ActivityType>
+  	<ActivityType>
+      <name>Reject Main Activity Proposal</name>
+    </ActivityType><ActivityType>
+      <name>Approve Expert by Customer</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Briefing Expert</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Contact with Customer</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Remote Coaching Debriefing CC</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Remote Coaching Debriefing SC</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Remote Coaching Debriefing PrOf</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Remote Coaching Debriefing Representative</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Remote Coaching Debriefing Expert</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Remote Coaching Debriefing Customer</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Meeting</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Phone Call</name>
     </ActivityType>
 	<ActivityType>
       <name>Print PDF Letter</name>
@@ -17,18 +58,6 @@
       <name>Email</name>
     </ActivityType>
 	<ActivityType>
-      <name>Contact with Customer</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Contact with Expert</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Contact about Expert</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Contact about Customer</name>
-    </ActivityType>
-    <ActivityType>
       <name>Change Case Type</name>
     </ActivityType>
     <ActivityType>
@@ -40,9 +69,6 @@
     <ActivityType>
       <name>Link Cases</name>
     </ActivityType>
-  <ActivityType>
-      <name>Conditions</name>
-    </ActivityType>
 	</ActivityTypes>
   <ActivitySets>
     <ActivitySet>
@@ -53,25 +79,35 @@
         <ActivityType>
           <name>Open Case</name>
           <status>Completed</status>
-        </ActivityType>
-      </ActivityTypes>
-    </ActivitySet>
-	</ActivitySets>
+		  </ActivityType>
+        </ActivityTypes>
+		</ActivitySet>
+    	</ActivitySets>
   <CaseRoles>
     <RelationshipType>
         <name>Sector Coordinator</name>
+		<manager>1</manager>
     </RelationshipType>
 	<RelationshipType>
-        <name>Representative</name>
+        <name>Representative for</name>
     </RelationshipType>
     <RelationshipType>
         <name>Expert</name>
     </RelationshipType>
     <RelationshipType>
-        <name>Country Coordinator</name>
+        <name>Country Coordinator for</name>
     </RelationshipType>
 	<RelationshipType>
         <name>Project Officer</name>
     </RelationshipType>	
-	</CaseRoles>
+	<RelationshipType>
+        <name>Projectmanager</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Raadgever Test</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Authorised contact for</name>
+    </RelationshipType>
+     </CaseRoles>
 </CaseType>

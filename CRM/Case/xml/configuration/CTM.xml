@@ -7,8 +7,23 @@
       <name>Open Case</name>
       <max_instances>1</max_instances>
     </ActivityType>
-    <ActivityType>
-      <name>DSA</name>
+	<ActivityType>
+      <name>CTM Budget approval by CFO</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Briefing</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Debriefing</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Representative payment</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Meeting</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Phone Call</name>
     </ActivityType>
 	<ActivityType>
       <name>Print PDF Letter</name>
@@ -17,18 +32,6 @@
       <name>Email</name>
     </ActivityType>
 	<ActivityType>
-      <name>Contact with Customer</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Contact with Expert</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Contact about Expert</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Contact about Customer</name>
-    </ActivityType>
-    <ActivityType>
       <name>Change Case Type</name>
     </ActivityType>
     <ActivityType>
@@ -51,60 +54,25 @@
           <name>Open Case</name>
           <status>Completed</status>
         </ActivityType>
-      <ActivityType>
-          <name>CTM Programme</name>
-          <reference_activity>Open Case</reference_activity>
-          <reference_offset>10</reference_offset>
-          <reference_select>newest</reference_select>
-        </ActivityType>
-		<ActivityType>
-          <name>Travelinformation</name>
-          <reference_activity>Open Case</reference_activity>
-          <reference_offset>15</reference_offset>
-          <reference_select>newest</reference_select>
-        </ActivityType>
-		<ActivityType>
-          <name>DSA</name>
-          <reference_activity>Open Case</reference_activity>
-          <reference_offset>20</reference_offset>
-          <reference_select>newest</reference_select>
-        </ActivityType>
-		<ActivityType>
-          <name>Briefing</name>
-          <reference_activity>Open Case</reference_activity>
-          <reference_offset>24</reference_offset>
-          <reference_select>newest</reference_select>
-        </ActivityType>
-		<ActivityType>
-          <name>Debriefing</name>
-          <reference_activity>Briefing</reference_activity>
-          <reference_offset>14</reference_offset>
-          <reference_select>newest</reference_select>
-        </ActivityType>
 		</ActivityTypes>
     </ActivitySet>
 	</ActivitySets>
 	<CaseRoles>
     <RelationshipType>
-        <name>Sector Coordinator</name>
+        <name>Country Coordinator for</name>
+		<manager>1</manager>
     </RelationshipType>
 	<RelationshipType>
-        <name>Country Coordinator</name>
-    </RelationshipType>
-	<RelationshipType>
-        <name>Representative</name>
-    </RelationshipType>
-    <RelationshipType>
-        <name>Expert</name>
-    </RelationshipType>
-    <RelationshipType>
-        <name>Country Coordinator</name>
+        <name>Representative for</name>
     </RelationshipType>
 	<RelationshipType>
         <name>Project Officer</name>
-    </RelationshipType>	
+		</RelationshipType>
 	<RelationshipType>
-        <name>Travel Organiser</name>
+        <name>MT Member</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>CFO</name>
     </RelationshipType>
  </CaseRoles>
 </CaseType>

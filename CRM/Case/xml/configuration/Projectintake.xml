@@ -11,6 +11,12 @@
       <name>Email</name>
     </ActivityType>
 	<ActivityType>
+      <name>Meeting</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Phone Call</name>
+    </ActivityType>
+	<ActivityType>
       <name>Contact with Customer</name>
     </ActivityType>
 	<ActivityType>
@@ -65,20 +71,24 @@
         <name>Sector Coordinator</name>
            </RelationshipType>
     <RelationshipType>
-        <name>Representative</name>
+        <name>Representative for</name>
     </RelationshipType>
     <RelationshipType>
         <name>Project Officer</name>
     </RelationshipType>
 <RelationshipType>
-        <name>Country Coordinator for</name>
+        <name>Country Coordinator for</name><manager>1</manager>
     </RelationshipType>
 	<RelationshipType>
         <name>Anamon</name>
-    </RelationshipType>	
+    </RelationshipType>
 	<RelationshipType>
+        <name>Projectmanager</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Authorised contact for</name>
+    </RelationshipType><RelationshipType>
         <name>Project Officer</name>
-		<manager>1</manager>
     </RelationshipType>
  </CaseRoles>
 </CaseType>

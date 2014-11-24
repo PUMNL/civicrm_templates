@@ -9,6 +9,12 @@
       <max_instances>1</max_instances>
     </ActivityType>
     <ActivityType>
+      <name>Meeting</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Phone Call</name>
+    </ActivityType>
+	<ActivityType>
       <name>Email</name>
     </ActivityType>
 	<ActivityType>
@@ -39,14 +45,17 @@
       <name>Customer assesses BLP Proposal</name>
     </ActivityType>
 	<ActivityType>
+      <name>Accept of Reject Product by Expert</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Representative payment</name>
+    </ActivityType>
+	<ActivityType>
       <name>Contact with Customer</name>
     </ActivityType>
     <ActivityType>
       <name>Contact about Customer</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Accept of Reject Product by Expert</name>
-    </ActivityType>
+    </ActivityType>    
       <ActivityType>
       <name>Change Case Type</name>
     </ActivityType>
@@ -158,12 +167,7 @@
           <reference_offset>32</reference_offset>
           <reference_select>newest</reference_select>
         </ActivityType>
-		<ActivityType>
-          <name>Prof checks and transfers approved budget</name>
-          <reference_activity>Open Case</reference_activity>
-          <reference_offset>35</reference_offset>
-          <reference_select>newest</reference_select>
-        </ActivityType></ActivityTypes>
+		</ActivityTypes>
     </ActivitySet>
 	<ActivitySet>
       <name>execution</name>
@@ -206,12 +210,7 @@
           <reference_offset>47</reference_offset>
           <reference_select>newest</reference_select>
         </ActivityType>
-		<ActivityType>
-          <name>Additional comments by Prof</name>
-          <reference_activity>Open Case</reference_activity>
-          <reference_offset>50</reference_offset>
-          <reference_select>newest</reference_select>
-        </ActivityType></ActivityTypes>
+		</ActivityTypes>
     </ActivitySet>
 	</ActivitySets>
   <CaseRoles>
@@ -231,6 +230,11 @@
         <name>Project Officer</name>
     </RelationshipType>
 	<RelationshipType>
+        <name>Projectmanager</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Authorised contact for</name>
+    </RelationshipType><RelationshipType>
         <name>Travel Organiser</name>
     </RelationshipType>
 	<RelationshipType>
