@@ -22,28 +22,34 @@
       <name>Approve Expert by Customer</name>
     </ActivityType>
 	<ActivityType>
+      <name>Concept list of participants</name>
+    </ActivityType>
+	<ActivityType>
       <name>Briefing Expert</name>
     </ActivityType>
 	<ActivityType>
-      <name>Contact with Customer</name>
+      <name>Acquisition</name>
     </ActivityType>
 	<ActivityType>
-      <name>Remote Coaching Debriefing CC</name>
+      <name>Seminar Debriefing Representative</name>
     </ActivityType>
 	<ActivityType>
-      <name>Remote Coaching Debriefing SC</name>
+      <name>Seminar Debriefing Expert</name>
     </ActivityType>
 	<ActivityType>
-      <name>Remote Coaching Debriefing PrOf</name>
+      <name>Seminar Debriefing Customer</name>
     </ActivityType>
 	<ActivityType>
-      <name>Remote Coaching Debriefing Representative</name>
+      <name>Seminar Debriefing CC</name>
     </ActivityType>
 	<ActivityType>
-      <name>Remote Coaching Debriefing Expert</name>
+      <name>Seminar Debriefing SC</name>
     </ActivityType>
 	<ActivityType>
-      <name>Remote Coaching Debriefing Customer</name>
+      <name>Seminar Debriefing PrOf</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Representative payment</name>
     </ActivityType>
 	<ActivityType>
       <name>Meeting</name>
@@ -94,7 +100,7 @@
     <RelationshipType>
         <name>Expert</name>
     </RelationshipType>
-    <RelationshipType>
+	<RelationshipType>
         <name>Country Coordinator for</name>
     </RelationshipType>
 	<RelationshipType>

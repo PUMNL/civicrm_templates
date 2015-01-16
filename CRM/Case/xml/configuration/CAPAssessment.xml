@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 
 <CaseType>
-  <name>ApplicationNewExpert</name>
+  <name>CAPAssessment</name>
   <ActivityTypes>
     <ActivityType>
       <name>Open Case</name>
@@ -14,21 +14,27 @@
       <name>Print PDF Letter</name>
     </ActivityType>
 	<ActivityType>
+      <name>Meeting</name>
+    </ActivityType>
+	<ActivityType>
       <name>Phone Call</name>
     </ActivityType>
 	<ActivityType>
-      <name>Interview</name>
+      <name>CAP submitted by CC</name>
     </ActivityType>
 	<ActivityType>
-      <name>RCT Intake Report</name>
+      <name>Contact with Customer</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Contact with Expert</name>
     </ActivityType>
 	<ActivityType>
-      <name>Fill Out PUM CV</name>
+      <name>Contact about Expert</name>
     </ActivityType>
 	<ActivityType>
-      <name>Contact with colleague</name>
+      <name>Contact about Customer</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Change Case Type</name>
     </ActivityType>
     <ActivityType>
@@ -37,7 +43,7 @@
     <ActivityType>
       <name>Change Case Start Date</name>
     </ActivityType>
-      </ActivityTypes>
+	</ActivityTypes>
   <ActivitySets>
     <ActivitySet>
       <name>standard_timeline</name>
@@ -48,28 +54,35 @@
           <name>Open Case</name>
           <status>Completed</status>
         </ActivityType>
-      </ActivityTypes>
+      <ActivityType>
+          <name>Assessment Country Project by CFO</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>14</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Assessment Country Project by CEO</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>14</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		</ActivityTypes>
     </ActivitySet>
 	</ActivitySets>
   <CaseRoles>
     <RelationshipType>
-        <name>Sector Coordinator</name>
-        <manager>1</manager>
+        <name>Country Coordinator for</name>
+    <manager>1</manager>
+	<creator>1</creator>
+	</RelationshipType>
+	<RelationshipType>
+        <name>Project Officer</name>
+    </RelationshipType>	
+	<RelationshipType>
+        <name>CFO</name>
     </RelationshipType>
 	<RelationshipType>
-        <name>Recruitment Team Member</name>
+        <name>CEO</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>CV Intake</name>
-    </RelationshipType>
-	<RelationshipType>
-        <name>Sector Support Officer</name>
-    </RelationshipType>
-	<RelationshipType>
-        <name>Head Personnel and Organisation</name>
-    </RelationshipType>
-	<RelationshipType>
-        <name>Reception</name>
-    </RelationshipType>
-		</CaseRoles>
+ </CaseRoles>
 </CaseType>

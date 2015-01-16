@@ -8,18 +8,24 @@
       <max_instances>1</max_instances>
     </ActivityType>
     <ActivityType>
-      <name>Location</name>
+      <name>Email</name>
     </ActivityType>
-    <ActivityType>
+	<ActivityType>
+      <name>Print PDF Letter</name>
+    </ActivityType>
+	<ActivityType>
+      <name>Location</name>
+    </ActivityType>	
+	<ActivityType>
       <name>Catering</name>
     </ActivityType>
-    <ActivityType>
+	<ActivityType>
       <name>Invitation</name>
-    </ActivityType>	  
+    </ActivityType> 
 	<ActivityType>
       <name>Equipment</name>
     </ActivityType>
-    <ActivityType>
+	<ActivityType>
       <name>Presentation</name>
     </ActivityType>
 	<ActivityType>
@@ -45,14 +51,8 @@
     </ActivityType>
 	<ActivityType>
       <name>Checklist</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Print PDF Letter</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Email</name>
-    </ActivityType>
-  </ActivityTypes>
+    </ActivityType>	
+	</ActivityTypes>
   <ActivitySets>
     <ActivitySet>
       <name>standard_timeline</name>
@@ -66,29 +66,83 @@
 	</ActivityTypes>
 	</ActivitySet>
     <ActivitySet>
-      <name>WOTS</name>
-      <label>WOTS</label>
+      <name>Meeting Activities</name>
+      <label>Meeting Activities</label>
       <timeline>true</timeline>
       <ActivityTypes>
         <ActivityType>
-          <name>Invite participants</name>
+          <name>Checklist</name>
           <reference_activity>Open Case</reference_activity>
-          <reference_offset>3</reference_offset>
+          <reference_offset>7</reference_offset>
           <reference_select>newest</reference_select>
         </ActivityType>
-<ActivityType>
-          <name>Checkpresentation(s)</name>
+		<ActivityType>
+          <name>Location</name>
           <reference_activity>Open Case</reference_activity>
-          <reference_offset>20</reference_offset>
+          <reference_offset>7</reference_offset>
           <reference_select>newest</reference_select>
         </ActivityType>
-<ActivityType>
-          <name>Instructions ICT</name>
+		<ActivityType>
+          <name>Catering</name>
           <reference_activity>Open Case</reference_activity>
-          <reference_offset>30</reference_offset>
+          <reference_offset>7</reference_offset>
           <reference_select>newest</reference_select>
         </ActivityType>
-      </ActivityTypes>
+		<ActivityType>
+          <name>Invitation</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>7</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Equipment</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>7</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Reminder</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>7</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Presentation</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>7</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Number of Participants</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>7</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Badges</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>7</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Participants List</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>7</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Scenario</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>7</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		<ActivityType>
+          <name>Minutes</name>
+          <reference_activity>Open Case</reference_activity>
+          <reference_offset>7</reference_offset>
+          <reference_select>newest</reference_select>
+        </ActivityType>
+		</ActivityTypes>
     </ActivitySet> 
   </ActivitySets>
   <CaseRoles>
@@ -98,13 +152,6 @@
         <manager>1</manager>
     </RelationshipType>
     <RelationshipType>
-        <name>Event Project Member</name>
-		<manager>2</manager>
-    </RelationshipType>
-    <RelationshipType>
-        <name>Event External Party</name>
-    </RelationshipType>
-	 <RelationshipType>
         <name>Event Contributor</name>
     </RelationshipType>
  </CaseRoles>

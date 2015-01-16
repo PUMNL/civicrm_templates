@@ -25,6 +25,9 @@
       <name>Briefing Expert</name>
     </ActivityType>
 	<ActivityType>
+      <name>Acquisition</name>
+    </ActivityType>
+	<ActivityType>
       <name>Advice Debriefing Representative</name>
     </ActivityType>
 	<ActivityType>
@@ -102,9 +105,6 @@
     </RelationshipType>	
 	<RelationshipType>
         <name>Projectmanager</name>
-    </RelationshipType>
-	<RelationshipType>
-        <name>Raadgever Test</name>
     </RelationshipType>
 	<RelationshipType>
         <name>Authorised contact for</name>

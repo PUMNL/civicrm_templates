@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 
 <CaseType>
-  <name>Acquiredaegis</name>
+  <name>Solicitation</name>
   <ActivityTypes>
     <ActivityType>
       <name>Open Case</name>
       <max_instances>1</max_instances>
     </ActivityType>
     <ActivityType>
-      <name>Contact with partner</name>
+      <name>Meeting</name>
     </ActivityType>
     <ActivityType>
-      <name>Contact about partner</name>
+      <name>Phone Call</name>
+    </ActivityType>
+<ActivityType>
+      <name>Email</name>
+    </ActivityType>
+<ActivityType>
+      <name>Agreements</name>
+    </ActivityType>
+<ActivityType>
+      <name>One pager</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Letter of Inquiry</name>
+    </ActivityType>
+<ActivityType>
+      <name>Concept Note</name>
+    </ActivityType>
+<ActivityType>
+      <name>Letter of Inquiry</name>
+    </ActivityType>
+<ActivityType>
+      <name>Proposal</name>
     </ActivityType>
   </ActivityTypes>
   <ActivitySets>
@@ -29,15 +50,18 @@
 </ActivitySets>
   <CaseRoles>
     <RelationshipType>
-        <name>PUM Manager is</name>
+        <name>Accountholder at PUM</name>
 	<manager>1</manager>
 	<creator>1</creator>
     </RelationshipType>
     <RelationshipType>
-        <name>Policy Officer DGIS is</name>
+        <name>Partner</name>
     </RelationshipType>
 <RelationshipType>
-        <name>Replacement Policy Officer DGIS is</name>
+        <name>Accountholder at partner</name>
+    </RelationshipType>
+<RelationshipType>
+        <name>Accountholder at client</name>
     </RelationshipType>
  </CaseRoles>
 </CaseType>
