@@ -34,16 +34,7 @@
 	<ActivityType>
       <name>Contact about Customer</name>
     </ActivityType>
-    <ActivityType>
-      <name>Change Case Type</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Change Case Status</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Change Case Start Date</name>
-    </ActivityType>
-	</ActivityTypes>
+    </ActivityTypes>
   <ActivitySets>
     <ActivitySet>
       <name>standard_timeline</name>

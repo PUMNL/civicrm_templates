@@ -17,27 +17,12 @@
       <name>Phone Call</name>
     </ActivityType>
 	<ActivityType>
-      <name>Interview</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Create Candidate Expert Account</name>
+      <name>Contact with Colleague</name>
     </ActivityType>
 	<ActivityType>
       <name>Fill Out PUM CV</name>
     </ActivityType>
-	<ActivityType>
-      <name>Contact with colleague</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Change Case Type</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Change Case Status</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Change Case Start Date</name>
-    </ActivityType>
-      </ActivityTypes>
+	</ActivityTypes>
   <ActivitySets>
     <ActivitySet>
       <name>standard_timeline</name>
@@ -68,8 +53,5 @@
 	<RelationshipType>
         <name>Head Personnel and Organisation</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Reception</name>
-    </RelationshipType>
-		</CaseRoles>
+			</CaseRoles>
 </CaseType>

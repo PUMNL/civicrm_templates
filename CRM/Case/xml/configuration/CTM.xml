@@ -11,6 +11,9 @@
       <name>CTM Budget approval by CFO</name>
     </ActivityType>
 	<ActivityType>
+      <name>Contact with Customer</name>
+    </ActivityType>
+	<ActivityType>
       <name>Briefing</name>
     </ActivityType>
 	<ActivityType>
@@ -32,15 +35,6 @@
       <name>Email</name>
     </ActivityType>
 	<ActivityType>
-      <name>Change Case Type</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Change Case Status</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Change Case Start Date</name>
-    </ActivityType>
-    <ActivityType>
       <name>Link Cases</name>
     </ActivityType>
   	</ActivityTypes>

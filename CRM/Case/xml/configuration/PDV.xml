@@ -11,6 +11,9 @@
       <name>PDV Programme</name>
     </ActivityType>
 	<ActivityType>
+      <name>Contact with Colleague</name>
+    </ActivityType>
+	<ActivityType>
       <name>Briefing</name>
     </ActivityType>
 	<ActivityType>
@@ -29,15 +32,6 @@
       <name>Email</name>
     </ActivityType>
 	<ActivityType>
-      <name>Change Case Type</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Change Case Status</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Change Case Start Date</name>
-    </ActivityType>
-    <ActivityType>
       <name>Link Cases</name>
     </ActivityType>
   	</ActivityTypes>

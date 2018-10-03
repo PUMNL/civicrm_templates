@@ -55,13 +55,26 @@
 	<creator>1</creator>
     </RelationshipType>
     <RelationshipType>
-        <name>Partner</name>
+        <name>Lead Applicant</name>
     </RelationshipType>
 <RelationshipType>
-        <name>Accountholder at partner</name>
+        <name>Co-applicant</name>
     </RelationshipType>
 <RelationshipType>
-        <name>Accountholder at client</name>
+        <name>Co-applicant</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Co-applicant</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Contact at PUM</name>
+    </RelationshipType>
+	<RelationshipType>
+        <name>Casemanager at client</name>
+    </RelationshipType><RelationshipType>
+        <name>Casemanager at Co-Applicant</name>
+    </RelationshipType><RelationshipType>
+        <name>Casemanager at Lead Applicant</name>
     </RelationshipType>
  </CaseRoles>
 </CaseType>

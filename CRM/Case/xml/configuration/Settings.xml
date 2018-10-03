@@ -10,7 +10,7 @@
   <AllowMultipleCaseClients>0</AllowMultipleCaseClients>
   <!-- Set this to 1 if you want to have activity types on Manage Case
   screen sorted in XML file order, default is alphabetical -->
-  <NaturalActivityTypeSort>1</NaturalActivityTypeSort>
+  <NaturalActivityTypeSort>0</NaturalActivityTypeSort>
   <!-- Add activity types which should NOT be editable here with editable = 0 -->
   <ActivityTypes>
     <ActivityType>

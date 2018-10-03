@@ -4,8 +4,10 @@
   <name>Projectintake</name>
   <ActivityTypes>
     <ActivityType>
+        <name>Projectintake Started</name>
+    </ActivityType>
+    <ActivityType>
       <name>Open Case</name>
-      <max_instances>1</max_instances>
     </ActivityType>
    <ActivityType>
       <name>Email</name>
@@ -37,15 +39,6 @@
 	<ActivityType>
       <name>Follow up</name>
     </ActivityType>
-  <ActivityType>
-      <name>Change Case Type</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Change Case Status</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Change Case Start Date</name>
-    </ActivityType>
     <ActivityType>
       <name>Link Cases</name>
     </ActivityType>
@@ -60,10 +53,10 @@
       <timeline>true</timeline>
       <ActivityTypes>
         <ActivityType>
-          <name>Open Case</name>
+          <name>Projectintake Started</name>
           <status>Completed</status>
-        </ActivityType>
-        </ActivityTypes>
+		    </ActivityType>
+      </ActivityTypes>
     </ActivitySet>
   </ActivitySets>
   <CaseRoles>
