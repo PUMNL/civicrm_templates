@@ -4,47 +4,47 @@
   <name>Projectintake</name>
   <ActivityTypes>
     <ActivityType>
-        <name>Projectintake Started</name>
+      <name>Projectintake Started</name>
     </ActivityType>
     <ActivityType>
       <name>Open Case</name>
     </ActivityType>
-   <ActivityType>
+    <ActivityType>
       <name>Email</name>
     </ActivityType>
-	<ActivityType>
-      <name>Meeting</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Phone Call</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Contact with Customer</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Contact about Customer</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Intake Customer by CC</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Intake Customer by SC</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Intake Customer by PrOf</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Print PDF Letter</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Follow up</name>
-    </ActivityType>
-    <ActivityType>
-      <name>Link Cases</name>
-    </ActivityType>
-	<ActivityType>
-      <name>Assessment Project Request by Rep</name>
-    </ActivityType>
+  <ActivityType>
+    <name>Meeting</name>
+  </ActivityType>
+  <ActivityType>
+    <name>Phone Call</name>
+  </ActivityType>
+  <ActivityType>
+    <name>Contact with Customer</name>
+  </ActivityType>
+  <ActivityType>
+    <name>Contact about Customer</name>
+  </ActivityType>
+  <ActivityType>
+    <name>Intake Customer by CC</name>
+  </ActivityType>
+  <ActivityType>
+    <name>Intake Customer by SC</name>
+  </ActivityType>
+  <ActivityType>
+    <name>Intake Customer by PrOf</name>
+  </ActivityType>
+  <ActivityType>
+    <name>Print PDF Letter</name>
+  </ActivityType>
+  <ActivityType>
+    <name>Follow up</name>
+  </ActivityType>
+  <ActivityType>
+    <name>Link Cases</name>
+  </ActivityType>
+  <ActivityType>
+    <name>Assessment Project Request by Rep</name>
+  </ActivityType>
   </ActivityTypes>
   <ActivitySets>
     <ActivitySet>
@@ -55,33 +55,31 @@
         <ActivityType>
           <name>Projectintake Started</name>
           <status>Completed</status>
-		    </ActivityType>
+        </ActivityType>
       </ActivityTypes>
     </ActivitySet>
   </ActivitySets>
   <CaseRoles>
     <RelationshipType>
-        <name>Sector Coordinator</name>
-           </RelationshipType>
-    <RelationshipType>
-        <name>Representative for</name>
+      <name>Sector Coordinator</name>
     </RelationshipType>
     <RelationshipType>
-        <name>Project Officer</name>
+      <name>Representative for</name>
     </RelationshipType>
-<RelationshipType>
-        <name>Country Coordinator for</name><manager>1</manager>
+    <RelationshipType>
+      <name>Project Officer</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Anamon</name>
+    <RelationshipType>
+      <name>Country Coordinator for</name><manager>1</manager>
     </RelationshipType>
-	<RelationshipType>
-        <name>Projectmanager</name>
+    <RelationshipType>
+      <name>Projectmanager</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Authorised contact for</name>
-    </RelationshipType><RelationshipType>
-        <name>Project Officer</name>
+    <RelationshipType>
+      <name>Authorised contact for</name>
     </RelationshipType>
- </CaseRoles>
+    <RelationshipType>
+      <name>Project Officer</name>
+    </RelationshipType>
+  </CaseRoles>
 </CaseType>
