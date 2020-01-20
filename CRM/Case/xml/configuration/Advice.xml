@@ -78,6 +78,11 @@
 	<ActivityType>
       <name>Link Cases</name>
     </ActivityType>
+    <ActivityType>
+      <name>Reason for decline or cancellation</name>
+      <max_instances>1</max_instances>
+      <status>Completed</status>
+    </ActivityType>
 	</ActivityTypes>
   <ActivitySets>
     <ActivitySet>
@@ -108,7 +113,7 @@
     </RelationshipType>
 	<RelationshipType>
         <name>Project Officer</name>
-    </RelationshipType>	
+    </RelationshipType>
 	<RelationshipType>
         <name>Projectmanager</name>
     </RelationshipType>
