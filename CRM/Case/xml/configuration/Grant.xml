@@ -10,49 +10,49 @@
     <ActivityType>
       <name>Grant Information by CC</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Assessment Grant by GC</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Payment Grant</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Report</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Meeting</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Phone Call</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Print PDF Letter</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Email</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Colleague</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Customer</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact about Customer</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Expert</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact about Expert</name>
     </ActivityType>
     <ActivityType>
       <name>Link Cases</name>
     </ActivityType>
-  <ActivityType>
+    <ActivityType>
       <name>Conditions</name>
     </ActivityType>
-	</ActivityTypes>
+  </ActivityTypes>
   <ActivitySets>
     <ActivitySet>
       <name>standard_timeline</name>
@@ -65,31 +65,31 @@
         </ActivityType>
       </ActivityTypes>
     </ActivitySet>
-	</ActivitySets>
+  </ActivitySets>
   <CaseRoles>
     <RelationshipType>
-        <name>Sector Coordinator</name>
-    </RelationshipType>
-	<RelationshipType>
-        <name>Representative</name>
+      <name>Sector Coordinator</name>
     </RelationshipType>
     <RelationshipType>
-        <name>Expert</name>
+      <name>Representative</name>
     </RelationshipType>
     <RelationshipType>
-        <name>Country Coordinator</name>
+      <name>Expert</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>CFO</name>
+    <RelationshipType>
+      <name>Country Coordinator</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Grant Coordinator</name>
+    <RelationshipType>
+      <name>CFO</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Authorised contact for</name>
+    <RelationshipType>
+      <name>Grant Coordinator</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Project Officer</name>
-    </RelationshipType>	
-	</CaseRoles>
+    <RelationshipType>
+      <name>Authorised contact for</name>
+    </RelationshipType>
+    <RelationshipType>
+      <name>Project Officer</name>
+    </RelationshipType>
+  </CaseRoles>
 </CaseType>
