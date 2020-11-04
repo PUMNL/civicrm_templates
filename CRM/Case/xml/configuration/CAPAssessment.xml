@@ -10,31 +10,31 @@
     <ActivityType>
       <name>Email</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Print PDF Letter</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Meeting</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Phone Call</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>CAP submitted by CC</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Customer</name>
     </ActivityType>
     <ActivityType>
       <name>Contact with Expert</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact about Expert</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact about Customer</name>
     </ActivityType>
-    </ActivityTypes>
+  </ActivityTypes>
   <ActivitySets>
     <ActivitySet>
       <name>standard_timeline</name>
@@ -45,35 +45,35 @@
           <name>Open Case</name>
           <status>Completed</status>
         </ActivityType>
-      <ActivityType>
+        <ActivityType>
           <name>Assessment Country Project by CFO</name>
           <reference_activity>Open Case</reference_activity>
           <reference_offset>14</reference_offset>
           <reference_select>newest</reference_select>
         </ActivityType>
-		<ActivityType>
+        <ActivityType>
           <name>Assessment Country Project by CEO</name>
           <reference_activity>Open Case</reference_activity>
           <reference_offset>14</reference_offset>
           <reference_select>newest</reference_select>
         </ActivityType>
-		</ActivityTypes>
+      </ActivityTypes>
     </ActivitySet>
-	</ActivitySets>
+  </ActivitySets>
   <CaseRoles>
     <RelationshipType>
-        <name>Country Coordinator for</name>
-    <manager>1</manager>
-	<creator>1</creator>
-	</RelationshipType>
-	<RelationshipType>
-        <name>Project Officer</name>
-    </RelationshipType>	
-	<RelationshipType>
-        <name>CFO</name>
+      <name>Country Coordinator for</name>
+      <manager>1</manager>
+      <creator>1</creator>
     </RelationshipType>
-	<RelationshipType>
-        <name>CEO</name>
+    <RelationshipType>
+      <name>Project Officer</name>
     </RelationshipType>
- </CaseRoles>
+    <RelationshipType>
+      <name>CFO</name>
+    </RelationshipType>
+    <RelationshipType>
+      <name>CEO</name>
+    </RelationshipType>
+  </CaseRoles>
 </CaseType>

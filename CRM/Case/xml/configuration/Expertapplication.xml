@@ -10,19 +10,19 @@
     <ActivityType>
       <name>Email</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Print PDF Letter</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Phone Call</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Colleague</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Fill Out PUM CV</name>
     </ActivityType>
-	</ActivityTypes>
+  </ActivityTypes>
   <ActivitySets>
     <ActivitySet>
       <name>standard_timeline</name>
@@ -35,23 +35,23 @@
         </ActivityType>
       </ActivityTypes>
     </ActivitySet>
-	</ActivitySets>
+  </ActivitySets>
   <CaseRoles>
     <RelationshipType>
-        <name>Sector Coordinator</name>
-        <manager>1</manager>
+      <name>Sector Coordinator</name>
+      <manager>1</manager>
     </RelationshipType>
-	<RelationshipType>
-        <name>Recruitment Team Member</name>
+    <RelationshipType>
+      <name>Recruitment Team Member</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>CV Intake</name>
+    <RelationshipType>
+      <name>CV Intake</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Sector Support Officer</name>
+    <RelationshipType>
+      <name>Sector Support Officer</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Head Personnel and Organisation</name>
+    <RelationshipType>
+      <name>Head Personnel and Organisation</name>
     </RelationshipType>
-			</CaseRoles>
+  </CaseRoles>
 </CaseType>

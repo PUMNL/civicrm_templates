@@ -13,25 +13,25 @@
     <ActivityType>
       <name>Phone Call</name>
     </ActivityType>
-<ActivityType>
+    <ActivityType>
       <name>Email</name>
     </ActivityType>
-<ActivityType>
+    <ActivityType>
       <name>Agreements</name>
     </ActivityType>
-<ActivityType>
+    <ActivityType>
       <name>One pager</name>
     </ActivityType>
     <ActivityType>
       <name>Letter of Inquiry</name>
     </ActivityType>
-<ActivityType>
+    <ActivityType>
       <name>Concept Note</name>
     </ActivityType>
-<ActivityType>
+    <ActivityType>
       <name>Letter of Inquiry</name>
     </ActivityType>
-<ActivityType>
+    <ActivityType>
       <name>Proposal</name>
     </ActivityType>
   </ActivityTypes>
@@ -47,34 +47,36 @@
         </ActivityType>
       </ActivityTypes>
     </ActivitySet>
-</ActivitySets>
+  </ActivitySets>
   <CaseRoles>
     <RelationshipType>
-        <name>Accountholder at PUM</name>
-	<manager>1</manager>
-	<creator>1</creator>
+      <name>Accountholder at PUM</name>
+      <manager>1</manager>
+      <creator>1</creator>
     </RelationshipType>
     <RelationshipType>
-        <name>Lead Applicant</name>
+      <name>Lead Applicant</name>
     </RelationshipType>
-<RelationshipType>
-        <name>Co-applicant</name>
+    <RelationshipType>
+      <name>Co-applicant</name>
     </RelationshipType>
-<RelationshipType>
-        <name>Co-applicant</name>
+    <RelationshipType>
+      <name>Co-applicant</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Co-applicant</name>
+    <RelationshipType>
+      <name>Co-applicant</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Contact at PUM</name>
+    <RelationshipType>
+      <name>Contact at PUM</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Casemanager at client</name>
-    </RelationshipType><RelationshipType>
-        <name>Casemanager at Co-Applicant</name>
-    </RelationshipType><RelationshipType>
-        <name>Casemanager at Lead Applicant</name>
+    <RelationshipType>
+      <name>Casemanager at client</name>
     </RelationshipType>
- </CaseRoles>
+    <RelationshipType>
+      <name>Casemanager at Co-Applicant</name>
+    </RelationshipType>
+    <RelationshipType>
+      <name>Casemanager at Lead Applicant</name>
+    </RelationshipType>
+  </CaseRoles>
 </CaseType>

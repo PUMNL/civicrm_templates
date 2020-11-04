@@ -10,75 +10,75 @@
     <ActivityType>
       <name>Conditions</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Condition: Customer Contribution.</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Accept Main Activity Proposal</name>
     </ActivityType>
-  	<ActivityType>
+    <ActivityType>
       <name>Reject Main Activity Proposal</name>
     </ActivityType><ActivityType>
       <name>Approve Expert by Customer</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Colleague</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Customer</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact about Customer</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Expert</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact about Expert</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Briefing Expert</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Acquisition</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Seminar Debriefing Representative</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Seminar Debriefing Expert</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Seminar Debriefing Customer</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Seminar Debriefing CC</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Seminar Debriefing SC</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Seminar Debriefing PrOf</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Representative payment</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Meeting</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Phone Call</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Print PDF Letter</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Email</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Link Cases</name>
     </ActivityType>
-	</ActivityTypes>
+  </ActivityTypes>
   <ActivitySets>
     <ActivitySet>
       <name>standard_timeline</name>
@@ -88,32 +88,32 @@
         <ActivityType>
           <name>Open Case</name>
           <status>Completed</status>
-		  </ActivityType>
-        </ActivityTypes>
-		</ActivitySet>
-    	</ActivitySets>
+        </ActivityType>
+      </ActivityTypes>
+    </ActivitySet>
+  </ActivitySets>
   <CaseRoles>
     <RelationshipType>
-        <name>Sector Coordinator</name>
-		<manager>1</manager>
-    </RelationshipType>
-	<RelationshipType>
-        <name>Representative for</name>
+      <name>Sector Coordinator</name>
+      <manager>1</manager>
     </RelationshipType>
     <RelationshipType>
-        <name>Expert</name>
+      <name>Representative for</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Country Coordinator for</name>
+    <RelationshipType>
+      <name>Expert</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Project Officer</name>
-    </RelationshipType>	
-	<RelationshipType>
-        <name>Projectmanager</name>
+    <RelationshipType>
+      <name>Country Coordinator for</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Authorised contact for</name>
+    <RelationshipType>
+      <name>Project Officer</name>
     </RelationshipType>
-     </CaseRoles>
+    <RelationshipType>
+      <name>Projectmanager</name>
+    </RelationshipType>
+    <RelationshipType>
+      <name>Authorised contact for</name>
+    </RelationshipType>
+  </CaseRoles>
 </CaseType>

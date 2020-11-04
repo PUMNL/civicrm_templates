@@ -10,31 +10,31 @@
     <ActivityType>
       <name>PDV Programme</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Colleague</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Briefing</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Debriefing</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Meeting</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Phone Call</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Print PDF Letter</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Email</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Link Cases</name>
     </ActivityType>
-  	</ActivityTypes>
+  </ActivityTypes>
   <ActivitySets>
     <ActivitySet>
       <name>standard_timeline</name>
@@ -44,19 +44,19 @@
         <ActivityType>
           <name>Open Case</name>
           <status>Completed</status>
-		  </ActivityType>
-        </ActivityTypes>
-		</ActivitySet>
-	</ActivitySets>
+        </ActivityType>
+      </ActivityTypes>
+    </ActivitySet>
+  </ActivitySets>
   <CaseRoles>
-    	<RelationshipType>
-        <name>Country Coordinator for</name>
+    <RelationshipType>
+      <name>Country Coordinator for</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Project Officer</name>
-    </RelationshipType>	
-	<RelationshipType>
-        <name>CEO</name>
+    <RelationshipType>
+      <name>Project Officer</name>
     </RelationshipType>
- </CaseRoles>
+    <RelationshipType>
+      <name>CEO</name>
+    </RelationshipType>
+  </CaseRoles>
 </CaseType>

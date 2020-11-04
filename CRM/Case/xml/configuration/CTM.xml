@@ -7,38 +7,38 @@
       <name>Open Case</name>
       <max_instances>1</max_instances>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>CTM Budget approval by CFO</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Customer</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Briefing</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Debriefing</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Representative payment</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Meeting</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Phone Call</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Print PDF Letter</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Email</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Link Cases</name>
     </ActivityType>
-  	</ActivityTypes>
-    <ActivitySets>
+  </ActivityTypes>
+  <ActivitySets>
     <ActivitySet>
       <name>standard_timeline</name>
       <label>Standard Timeline</label>
@@ -48,25 +48,25 @@
           <name>Open Case</name>
           <status>Completed</status>
         </ActivityType>
-		</ActivityTypes>
+      </ActivityTypes>
     </ActivitySet>
-	</ActivitySets>
-	<CaseRoles>
+  </ActivitySets>
+  <CaseRoles>
     <RelationshipType>
-        <name>Country Coordinator for</name>
-		<manager>1</manager>
+      <name>Country Coordinator for</name>
+    <manager>1</manager>
     </RelationshipType>
-	<RelationshipType>
-        <name>Representative for</name>
+    <RelationshipType>
+      <name>Representative for</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>Project Officer</name>
-		</RelationshipType>
-	<RelationshipType>
-        <name>MT Member</name>
+    <RelationshipType>
+      <name>Project Officer</name>
     </RelationshipType>
-	<RelationshipType>
-        <name>CFO</name>
+    <RelationshipType>
+      <name>MT Member</name>
     </RelationshipType>
- </CaseRoles>
+    <RelationshipType>
+      <name>CFO</name>
+    </RelationshipType>
+  </CaseRoles>
 </CaseType>

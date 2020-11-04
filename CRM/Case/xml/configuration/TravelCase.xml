@@ -10,37 +10,37 @@
     <ActivityType>
       <name>Print PDF Letter</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Email</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>DSA</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Pick Up Information</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Letter of Invitation</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Customer</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact about Customer</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Expert</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact about Expert</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Colleague</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Link Cases</name>
     </ActivityType>
-	</ActivityTypes>
+  </ActivityTypes>
   <ActivitySets>
     <ActivitySet>
       <name>standard_timeline</name>
@@ -50,10 +50,10 @@
         <ActivityType>
           <name>Open Case</name>
           <status>Completed</status>
-		  </ActivityType>
-        </ActivityTypes>
-		</ActivitySet>
-    	<ActivitySet>
+        </ActivityType>
+      </ActivityTypes>
+    </ActivitySet>
+    <ActivitySet>
       <name>Visa</name>
       <label>Visa Application</label>
       <timeline>true</timeline>
@@ -61,19 +61,19 @@
         <ActivityType>
           <name>Visa documents from Expert</name>
           <status>Scheduled</status>
-		  </ActivityType>
+        </ActivityType>
         <ActivityType>
           <name>Visa Request</name>
           <status>Scheduled</status>
-		  </ActivityType>
-		  </ActivityTypes>
-		</ActivitySet>
-		</ActivitySets>
+        </ActivityType>
+      </ActivityTypes>
+    </ActivitySet>
+  </ActivitySets>
   <CaseRoles>
     <RelationshipType>
-        <name>Case Coordinator</name>
-		<creator>1</creator>
-		<manager>1</manager>
-    </RelationshipType>	
-	 </CaseRoles>
+      <name>Case Coordinator</name>
+      <creator>1</creator>
+      <manager>1</manager>
+    </RelationshipType>
+  </CaseRoles>
 </CaseType>

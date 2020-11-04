@@ -12,44 +12,44 @@
     <ActivityType>
       <name>Email</name>
     </ActivityType>
-  <ActivityType>
-    <name>Meeting</name>
-  </ActivityType>
-  <ActivityType>
-    <name>Phone Call</name>
-  </ActivityType>
-  <ActivityType>
-    <name>Contact with Customer</name>
-  </ActivityType>
-  <ActivityType>
-    <name>Contact about Customer</name>
-  </ActivityType>
-  <ActivityType>
-    <name>Intake Customer by CC</name>
-  </ActivityType>
-  <ActivityType>
-    <name>Intake Customer by SC</name>
-  </ActivityType>
-  <ActivityType>
-    <name>Intake Customer by PrOf</name>
-  </ActivityType>
-  <ActivityType>
-    <name>Print PDF Letter</name>
-  </ActivityType>
-  <ActivityType>
-    <name>Follow up</name>
-  </ActivityType>
-  <ActivityType>
-    <name>Link Cases</name>
-  </ActivityType>
-  <ActivityType>
-    <name>Assessment Project Request by Rep</name>
-  </ActivityType>
-  <ActivityType>
-    <name>Reason for decline or cancellation</name>
-    <max_instances>1</max_instances>
-    <status>Completed</status>
-  </ActivityType>
+    <ActivityType>
+      <name>Meeting</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Phone Call</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Contact with Customer</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Contact about Customer</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Intake Customer by CC</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Intake Customer by SC</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Intake Customer by PrOf</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Print PDF Letter</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Follow up</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Link Cases</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Assessment Project Request by Rep</name>
+    </ActivityType>
+    <ActivityType>
+      <name>Reason for decline or cancellation</name>
+      <max_instances>1</max_instances>
+      <status>Completed</status>
+    </ActivityType>
   </ActivityTypes>
   <ActivitySets>
     <ActivitySet>

@@ -10,16 +10,16 @@
     <ActivityType>
       <name>Exit Expert</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Email</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Print PDF Letter</name>
     </ActivityType>
-	<ActivityType>
+    <ActivityType>
       <name>Contact with Colleague</name>
     </ActivityType>
-	</ActivityTypes>
+  </ActivityTypes>
   <ActivitySets>
     <ActivitySet>
       <name>standard_timeline</name>
@@ -32,11 +32,11 @@
         </ActivityType>
       </ActivityTypes>
     </ActivitySet>
-	</ActivitySets>
+  </ActivitySets>
   <CaseRoles>
     <RelationshipType>
-        <name>Sector Coordinator</name>
-        <manager>1</manager>
+      <name>Sector Coordinator</name>
+      <manager>1</manager>
     </RelationshipType>
-			</CaseRoles>
+  </CaseRoles>
 </CaseType>
