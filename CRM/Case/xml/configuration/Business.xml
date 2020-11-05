@@ -125,5 +125,8 @@
       <name>Sector Coordinator</name>
       <manager>1</manager>
     </RelationshipType>
+    <RelationshipType>
+      <name>Team</name>
+    </RelationshipType>
   </CaseRoles>
 </CaseType>

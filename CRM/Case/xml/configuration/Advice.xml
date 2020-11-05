@@ -120,5 +120,8 @@
     <RelationshipType>
       <name>Authorised contact for</name>
     </RelationshipType>
+    <RelationshipType>
+      <name>Team</name>
+    </RelationshipType>
   </CaseRoles>
 </CaseType>
